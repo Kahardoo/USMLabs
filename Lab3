@@ -1,0 +1,25 @@
+// main.cpp
+
+#include <iostream>
+int hello(int x);
+
+int main() {
+    std::cout << "Result: " << hello(1) << std::endl;
+    return 0;
+}
+
+/****************************************************\
+// main.cpp
+
+#include <iostream>
+int hello(int x);
+
+int main() {
+    std::cout << "Result: " << hello(2) << std::endl;
+    return 0;
+}
+
+int hello(int x) {
+    return 3 * x;
+}
+/****************************************************\
