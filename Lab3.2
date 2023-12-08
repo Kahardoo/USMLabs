@@ -1,0 +1,33 @@
+#include <iostream>
+
+int hello(int x);
+int main() {
+    int result = hello(42);
+    std::cout << "Result: " << result << std::endl;
+
+    return 0;
+}
+
+
+f.cpp
+int hello(int x);
+int hello(int x) {
+    return x * 2;
+}
+
+Una si aceeasi functie este scrisa de doua ori in ambele fisiere
+
+/******************************\
+
+#include <iostream>
+
+// Объявление функции с модификатором static в main.cpp
+static int hello(int x);
+
+int main() {
+    // Вызов функции и вывод результата в консоль
+    int result = hello(42);
+    std::cout << "Result: " << result << std::endl;
+
+    return 0;
+}
